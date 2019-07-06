@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css');
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+body {
+    font-family: 'Muli', sans-serif;
+    padding: 10px;
+    background-color: #9D2449;
+
+}
+
+body, html {
+    height: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+h3{
+    color: #9D2449;
+}
+#card{
+    margin-top: 90px;
+}
+thead{
+    font-size: small;
+    font-weight: bold;
+    color: #9D2449;
+}
+tbody{
+    font-size: x-small;
+}
