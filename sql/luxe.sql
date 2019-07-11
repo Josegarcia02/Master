@@ -5,8 +5,11 @@ USE luxe;
 --DROP TABLE IF NOT EXISTS `usuarios`;
 CREATE TABLE IF NOT EXISTS `usuarios`(
 `id` int(11) NOT NULL AUTO_INCREMENT,
+`nombre` char(255) NOT NULL,
+`apellido` char(255) NOT NULL,
 `email` varchar(255) NOT NULL,
 `password` varchar(255) NOT NULL,
+`rol` CHAR(255) NOT NULL 
 CONSTRAINT `pk_usuarios` PRIMARY KEY (`id`)
 ) ENGINE=InnoDB;
 
